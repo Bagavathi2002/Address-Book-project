@@ -1,15 +1,19 @@
 # Address-Book-project
 
 This is a simple Address Book application implemented in C that allows users to add, edit, search, delete, and display contacts. 
+
 The contacts are stored in memory during the program execution and can also be saved to a CSV file for persistent storage. 
+
 The program supports a maximum of 100 contacts.
 
 # Requirements
 C Compiler (like GCC)
+
 Any standard C IDE or terminal environment
 
 # File Details
 address_book.c: The main C file containing all functionality for the address book.
+
 addressbook.csv: A CSV file used for storing contacts persistently.
 
 # Program Functionality
@@ -42,4 +46,5 @@ Contacts can be removed by searching for them by name, phone, or email.
 
 # Saving and Loading Contacts
 Contacts are saved to addressbook.csv in a comma-separated format (CSV) for easy reading and writing.
+
 On startup, the program loads contacts from addressbook.csv, if it exists. 
